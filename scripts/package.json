@@ -1,0 +1,22 @@
+{
+  "name": "stitch-up-video-converter",
+  "version": "1.0.0",
+  "description": "Video converter tools for the Stitch-Up project",
+  "main": "video-converter.js",
+  "scripts": {
+    "start": "node video-converter.js",
+    "start:replicate": "node video-converter-replicate.js"
+  },
+  "dependencies": {
+    "@runwayml/sdk": "latest",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "video-converter": "./video-converter.js",
+    "video-converter-replicate": "./video-converter-replicate.js"
+  }
+} 
